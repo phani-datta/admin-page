@@ -10,10 +10,6 @@ import './index.css';
 const Stats = () => {
     const { stats, fetchData, loading } = useContext(StatsContext);
 
-    useEffect(() => {
-        fetchData();
-    }, []);
-
     const statItem = (icon, statNumber, statName) => {
         const percentages = ["Churn Rate", "Alive Churn Rate"];
         return (

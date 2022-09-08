@@ -37,7 +37,7 @@ const Table = () => {
     };
 
     useEffect(() => {
-        fetchData();
+        fetchData(fromDate, toDate, entries);
     }, []);
 
     const handleEntriesChange = (event) => {
