@@ -12,13 +12,13 @@ const Admin = () => {
     return (
         <React.Fragment>
             <div className="navbar bg-[#0f1d32] shadow-xl">
-                <div className="flex-none">
-                    <label htmlFor="my-drawer" className="btn btn-square btn-ghost">
+                <div className="flex-none block lg:hidden">
+                    <label htmlFor="my-drawer" className="btn btn-square btn-ghost flex items-center lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current lg:hidden"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </label>
                 </div>
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <img src="/images/logo.png" className="w-10 bg-white" alt="" />
                 </div>
             </div>
             <div className="flex gap-6 bg-[#131d32] h-full">
